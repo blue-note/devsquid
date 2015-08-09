@@ -11,7 +11,6 @@ def tweet():
     api = tweepy.API(auth)
     query = "tech"
     response = api.search(q=query,rpp=1,count=1)
-    print response[0].text
     api.update_status(status=response[0].text)
 
 if __name__ == "__main__":
