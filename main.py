@@ -12,8 +12,6 @@ def tweet():
     query = "tech"
     response = api.search(q=query,rpp=1,count=1)
     api.update_status(status=response[0].text)
-    while True: 
-        a=2
-
+    
 if __name__ == "__main__":
     tweet()
