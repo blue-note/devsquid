@@ -6,6 +6,7 @@ __pycache__/
 app.py
 devsquidicon.png
 tweets.txt
+Procfile
 
 # C extensions
 *.so
